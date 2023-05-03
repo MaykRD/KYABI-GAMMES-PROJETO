@@ -272,7 +272,7 @@ h1 span {
 
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:890px){
 
 body {
     width: 100vh;
@@ -293,7 +293,7 @@ body {
 }
 
 .p1 h1 {
-    font-size: 75px;
+    font-size: 60px;
     display: flex;
 }
 
