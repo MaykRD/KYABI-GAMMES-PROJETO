@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.menu {
+    padding: 20px 35px 0 0;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 18px;
+    font-family: cursive;
+    color: #fff;
+}
+
+.menu button {
+    background-color: rgb(255, 166, 0);
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(43, 38, 38);
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.p1 {
+    background-image: url(img/fundo1.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    border-bottom: 3px solid #000000;
+
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 15%;
+
+
+}
+
+.p1 h3 {
+    font-size: 28px;
+    color: #fff;
+    font-family: Bruno Ace SC;
+    width: 50px;
+    margin-bottom: 20px;
+
+}
+
+.p1 h1 {
+    font-size: 75px;
+    color: #fff;
+    font-family: Bruno Ace SC;
+    margin-bottom: 20px;
+}
+
+.p1 button {
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(255, 166, 0);
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(43, 38, 38);
+    border-radius: 30px;
+}
+
+.pagina2 {
+    background-image: url(img/fundo-limpo.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border-bottom: 3px solid #000000;
+
+}
+
+.pag2 h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: Bruno Ace SC;
+    padding-bottom: 50px;
+}
+
+h1 span {
+    color: rgb(255, 166, 0);
+}
+
+.pag2 p {
+    font-size: 21px;
+    color: #fff;
+    width: 500px;
+    font-family: Roboto Mono;
+
+}
+
+.pag2 a {
+    font-size: 21px;
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+    position: relative;
+    top: 170px;
+}
+
+.pag2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pagina3 {
+    background-image: url(img/fundo-limpo.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina3 img {
+    height: 514px;
+    width: 541px;
+    padding-right: 150px;
+
+}
+
+.p3 {
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.p3 h1 {
+    font-size: 42px;
+    color: rgb(255, 34, 71);
+    font-family: Roboto Mono;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.p3 p {
+    color: #fff;
+    font-size: 21px;
+    font-family: Roboto Mono;
+}
+
+.p3 button {
+    background-color: rgb(255, 34, 71);
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #0000;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+.pagina6 {
+    background-image: url(img/fundo-limpo.png);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.p6 {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    margin-top: 80px;
+}
+
+.pagina6 h1 {
+    font-size: 60px;
+    font-family: roboto mono;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.p6 h3 {
+    font-size: 21px;
+    color: rgb(255, 34, 71);
+    font-weight: bolder;
+    width: 180px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.p6 p {
+    font-size: 20px;
+    width: 160px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.final {
+    background-image: url(img/fundo2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.p7 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+
+}
+
+.p7 h1 {
+    font-size: 60px;
+    font-family: roboto mono;
+    color: #fff;
+    width: 400px;
+    margin-left: 10%;
+    margin-top: -20%;
+
+
+}
+
+.p7 p {
+    font-size: 20px;
+    width: 200px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.p7 a {
+    font-size: 21px;
+    color: rgb(255, 34, 71);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.marge {
+    margin-right: 20%;
+
+}
+
+.icons {
+    margin-top: 70px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width:850px){
+
+body {
+    width: 100vh;
+}
+
+.p1 h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: Bruno Ace SC;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.position {
+    display: flex;
+    text-align: center;
+    width: 70%;
+}
+
+.p1 h1 {
+    font-size: 75px;
+    display: flex;
+}
+
+.p3 {
+    width: 100px;
+}
+
+.p1 button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+
+}
+
+.p3 {
+    width: 252px;
+    margin-left: -25px;
+}
+
+.pagina3 img {
+    padding-right: 83px;
+
+}
+
+.pagina6 {
+    padding-top: 100px;
+}
+.final {
+    background-size: cover;
+}
+}
+
+@media screen and (max-width:375px){
+
+    body {
+        width: 110vh;
+    }
+    
+    .p1 h3 {
+        font-size: 20px;
+        color: #fff;
+        font-family: Bruno Ace SC;
+        width: 50px;
+        margin-bottom: 20px;
+        margin-top: -60px;
+    }
+    
+    .position {
+        display: flex;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .p1 h1 {
+        font-size: 65px;
+        display: flex;
+    }
+    
+    .p3 {
+        width: 100px;
+    }
+    
+    .p1 button {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 40px;
+    
+    }
+    
+    .p3 {
+        width: 252px;
+        margin-left: -25px;
+    }
+    
+    .pagina3 img {
+        padding-right: 83px;
+    
+    }
+    
+    .pagina6 {
+        padding-top: 100px;
+    }
+    .final {
+        background-size: cover;
+    }
+    .p6{
+        padding: 30px;
+    }
+    .p7 h1{
+       padding-right: 10px;
+    }
+    }
